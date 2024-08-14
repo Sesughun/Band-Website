@@ -2,6 +2,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { useEffect } from "react";
+import Image from "next/image";
 const Slideshow = () => {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min");
@@ -28,7 +29,7 @@ const Slideshow = () => {
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
+            <Image
               src="/slide1.png"
               alt="Los Angeles"
               className="d-block"
@@ -40,7 +41,7 @@ const Slideshow = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img
+            <Image
               src="/slide2.png"
               alt="Abuja"
               className="d-block"
@@ -52,7 +53,7 @@ const Slideshow = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img
+            <Image
               src="/slide1.png"
               alt="Makurdi"
               className="d-block"
@@ -71,7 +72,7 @@ const Slideshow = () => {
           data-bs-target="#demo"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon"></span>
+          <span className="carousel-control-prev-icon">.</span>
         </button>
         <button
           className="carousel-control-next"
@@ -79,7 +80,7 @@ const Slideshow = () => {
           data-bs-target="#demo"
           data-bs-slide="next"
         >
-          <span className="carousel-control-next-icon"></span>
+          <span className="carousel-control-next-icon">.</span>
         </button>
       </div>
     </div>
