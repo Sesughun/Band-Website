@@ -39,7 +39,7 @@ const Slideshow = () => {
             />
             <div className="carousel-caption">
               <h3>HOME</h3>
-              <p>`We've always had such FUN together!`</p>
+              <p> We&apos;ve always had such FUN together!</p>
             </div>
           </div>
           <div className="carousel-item">
