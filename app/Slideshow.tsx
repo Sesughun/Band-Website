@@ -33,11 +33,13 @@ const Slideshow = () => {
               src="/slide1.png"
               alt="Los Angeles"
               className="d-block"
+              width={500}
+              height={300}
               style={{ width: "100%", maxHeight: "80%", border: "none" }}
             />
             <div className="carousel-caption">
               <h3>HOME</h3>
-              <p>We've always had such FUN together!</p>
+              <p>`We've always had such FUN together!`</p>
             </div>
           </div>
           <div className="carousel-item">
@@ -45,6 +47,8 @@ const Slideshow = () => {
               src="/slide2.png"
               alt="Abuja"
               className="d-block"
+              width={500}
+              height={300}
               style={{ width: "100%" }}
             />
             <div className="carousel-caption">
@@ -57,6 +61,8 @@ const Slideshow = () => {
               src="/slide1.png"
               alt="Makurdi"
               className="d-block"
+              width={500}
+              height={300}
               style={{ width: "100%" }}
             />
             <div className="carousel-caption">

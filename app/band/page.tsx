@@ -7,7 +7,6 @@ const Members = () => {
       style={{
         backgroundImage: "url('/slide1.png')",
         width: "100%",
-        // Adjust height as needed
         backgroundSize: "cover", // This ensures the image covers the entire div
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -22,7 +21,7 @@ const Members = () => {
       >
         <div>
           <h1 className="flex justify-center p-5 text-slate-50">
-            LAN's MUSIC BAND
+            LAN&apos;s MUSIC BAND
           </h1>
           <div className="flex flex-wrap gap-3">
             <Band
