@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Slideshow from "./Slideshow";
 import TourDates from "./TourDates";
