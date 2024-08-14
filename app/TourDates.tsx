@@ -9,8 +9,8 @@ const TourDates = () => {
           <div
             className="p-3"
             style={{
-              backgroundColor: "blue",
-              border: "3px solid blue",
+              backgroundColor: "rgb(71, 85, 105)",
+              border: "3px solid rgb(71, 85, 105)",
               borderRadius: "45%",
             }}
           >
@@ -32,8 +32,8 @@ const TourDates = () => {
           <div
             className="p-3"
             style={{
-              backgroundColor: "blue",
-              border: "3px solid blue",
+              backgroundColor: "rgb(71, 85, 105)",
+              border: "3px solid rgb(71, 85, 105)",
               borderRadius: "45%",
             }}
           >
