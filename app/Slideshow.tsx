@@ -1,11 +1,11 @@
 "use client";
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { useEffect } from "react";
 import Image from "next/image";
 const Slideshow = () => {
   useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min");
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   return (
     <div>
@@ -34,7 +34,7 @@ const Slideshow = () => {
               alt="Los Angeles"
               className="d-block"
               width={500}
-              height={300}
+              height={50}
               style={{ width: "100%", maxHeight: "80%", border: "none" }}
             />
             <div className="carousel-caption">
@@ -44,7 +44,7 @@ const Slideshow = () => {
           </div>
           <div className="carousel-item">
             <Image
-              src="/slide2.png"
+              src="/slide22.png"
               alt="Abuja"
               className="d-block"
               width={500}
@@ -58,7 +58,7 @@ const Slideshow = () => {
           </div>
           <div className="carousel-item">
             <Image
-              src="/slide1.png"
+              src="/slide3.png"
               alt="Makurdi"
               className="d-block"
               width={500}
