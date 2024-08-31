@@ -23,30 +23,30 @@ const Members = () => {
           <h1 className="flex justify-center p-5 text-slate-50">
             LAN&apos;s MUSIC BAND
           </h1>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-2">
             <Band
               picture="/Paul2.png"
               name="Paul Lan"
               nickname="Tertsea"
-              details="The first born and the fun person in the band."
+              details="The first born and the fun person in the band. He plays the drums."
             />
             <Band
               picture="/Nath2.png"
               name="Nath Lan"
               nickname="Terhemba"
-              details="The second born and the creative person in the band."
+              details="The second born and the creative person in the band. He plays the keyboard and saxophone."
             />
             <Band
               picture="/Kater2.png"
               name="Joshua Lan"
               nickname="Kater"
-              details="The first born and the active person in the band."
+              details="The third born and the active person in the band. He plays the guitar."
             />
             <Band
               picture="/daniel2.png"
               name="Daniel Lan"
               nickname="Daniel"
-              details="The last born and baby of the band."
+              details="The last born and bold person in the band. He plays the saxophone."
             />
             <br />
           </div>

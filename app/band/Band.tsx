@@ -21,9 +21,9 @@ const Band = ({ picture, name, nickname, details }: Member) => {
           }}
         />
       </div>
-      <div className="text-slate-50">
+      <div className="text-slate-50 mr-2">
         <h2>{name}</h2>
-        <h6>{nickname}</h6>
+        <h6 className="opacity-50">{nickname}</h6>
         <p>{details}</p>
       </div>
     </div>
