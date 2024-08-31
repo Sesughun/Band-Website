@@ -45,7 +45,7 @@ const MusicTemplate = ({ songTitle, band_members }: MusicTemplate) => {
 
       <p className="text-slate-50/30">
         {band_members.map((member: any, index: number) => (
-          <span>
+          <span key={index}>
             {member}
             {index < band_members.length - 1 && ", "}
           </span>
