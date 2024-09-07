@@ -16,10 +16,7 @@ const Videos = ({
   image,
 }: VideoInfo) => {
   return (
-    <div
-      className="bg-slate-900 border-slate-700 mb-4 text-slate-50"
-      style={{ borderRadius: 25 }}
-    >
+    <div className="bg-slate-900 border-slate-700 mb-4 text-slate-50 rounded-xl">
       <Link href={video_url}>
         <div className="flex p-4">
           <img

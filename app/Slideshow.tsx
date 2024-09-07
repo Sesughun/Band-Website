@@ -1,11 +1,13 @@
 "use client";
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+//import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { useEffect } from "react";
 import Image from "next/image";
 const Slideshow = () => {
   useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    if (typeof document !== "undefined") {
+      require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    }
   }, []);
   return (
     <div>

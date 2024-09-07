@@ -12,18 +12,16 @@ const Band = ({ picture, name, nickname, details }: Member) => {
         <img
           alt={name}
           src={picture}
+          className="mx-[20px] rounded-xl"
           style={{
             maxWidth: "200px",
             maxHeight: "300px",
-            borderRadius: "25px",
-            marginRight: "20px",
-            marginLeft: "20px",
           }}
         />
       </div>
       <div className="text-slate-50 mr-2">
         <h2>{name}</h2>
-        <h6 className="opacity-50">{nickname}</h6>
+        <h6 className="text-sm opacity-50">{nickname}</h6>
         <p>{details}</p>
       </div>
     </div>
